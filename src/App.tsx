@@ -1,4 +1,3 @@
-import "./App.css";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 
@@ -6,7 +5,7 @@ function App() {
   return (
     <>
       <Header />
-      <main></main>
+      <main className="p-10">sdqfqwf</main>
       <Footer />
     </>
   );
