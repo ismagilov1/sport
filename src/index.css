@@ -5,36 +5,46 @@
 /* Bebas */
 @font-face {
   font-family: "Bebas Neue";
-  src: local("Bebas Neue Thin"), local("BebasNeue-Thin"), url("./assets/fonts/bebas/bebasneuethin.woff2") format("woff2"),
-    url("./assets/fonts/bebas/bebasneuethin.woff") format("woff"), url("./assets/fonts/bebas/bebasneuethin.ttf") format("truetype");
+  src: local("Bebas Neue Thin"), local("BebasNeue-Thin"),
+    url("./assets/fonts/bebas/bebasneuethin.woff2") format("woff2"),
+    url("./assets/fonts/bebas/bebasneuethin.woff") format("woff"),
+    url("./assets/fonts/bebas/bebasneuethin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "Bebas Neue";
-  src: local("Bebas Neue Light"), local("BebasNeue-Light"), url("./assets/fonts/bebas/bebasneuelight") format("woff2"),
-    url("./assets/fonts/bebas/bebasneuelight.woff") format("woff"), url("./assets/fonts/bebas/bebasneuelight.ttf") format("truetype");
+  src: local("Bebas Neue Light"), local("BebasNeue-Light"),
+    url("./assets/fonts/bebas/bebasneuelight") format("woff2"),
+    url("./assets/fonts/bebas/bebasneuelight.woff") format("woff"),
+    url("./assets/fonts/bebas/bebasneuelight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "Bebas Neue";
-  src: local("Bebas Neue Book"), local("BebasNeueBook"), url("./assets/fonts/bebas/bebasneuebook") format("woff2"),
-    url("./assets/fonts/bebas/bebasneuebook.woff") format("woff"), url("./assets/fonts/bebas/bebasneuebook.ttf") format("truetype");
+  src: local("Bebas Neue Book"), local("BebasNeueBook"),
+    url("./assets/fonts/bebas/bebasneuebook") format("woff2"),
+    url("./assets/fonts/bebas/bebasneuebook.woff") format("woff"),
+    url("./assets/fonts/bebas/bebasneuebook.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Bebas Neue";
-  src: local("Bebas Neue Regular"), local("BebasNeueRegular"), url("./assets/fonts/bebas/bebasneueregular") format("woff2"),
-    url("./assets/fonts/bebas/bebasneueregular.woff") format("woff"), url("./assets/fonts/bebas/bebasneueregular.ttf") format("truetype");
+  src: local("Bebas Neue Regular"), local("BebasNeueRegular"),
+    url("./assets/fonts/bebas/bebasneueregular") format("woff2"),
+    url("./assets/fonts/bebas/bebasneueregular.woff") format("woff"),
+    url("./assets/fonts/bebas/bebasneueregular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Bebas Neue";
-  src: local("Bebas Neue Bold"), local("BebasNeueBold"), url("./assets/fonts/bebas/bebasneuebold") format("woff2"),
-    url("./assets/fonts/bebas/bebasneuebold.woff") format("woff"), url("./assets/fonts/bebas/bebasneuebold.ttf") format("truetype");
+  src: local("Bebas Neue Bold"), local("BebasNeueBold"),
+    url("./assets/fonts/bebas/bebasneuebold") format("woff2"),
+    url("./assets/fonts/bebas/bebasneuebold.woff") format("woff"),
+    url("./assets/fonts/bebas/bebasneuebold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -52,6 +62,11 @@
 }
 @font-face {
   font-family: "Roboto";
+  src: url("./assets/fonts//roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
   src: url("./assets/fonts//roboto/Roboto-Medium.ttf");
   font-weight: 500;
 }
@@ -60,7 +75,9 @@
   src: url("./assets/fonts//roboto/Roboto-Bold.ttf");
   font-weight: 700;
 }
-
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -71,3 +88,24 @@ html {
   max-width: 1300px;
   margin: 0 auto;
 }
+.btn-hover:hover {
+  background: url("/bg-button.png"), #cb37ee;
+}
+.preview-slider {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.preview-slider > div {
+  height: 100%;
+}
+
+/* .swiper-slide {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.509807) 0%,
+    rgba(0, 0, 0, 0.0001) 100%
+  );
+} */
