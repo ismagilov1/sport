@@ -1,10 +1,10 @@
-import { Footer } from "./components/footer";
+import { Footer } from "./components/footer/footer";
 import { Header } from "./components/header";
 
 function App() {
   return (
     <>
-      <div className="max-w-[1300px] mx-auto px-1">
+      <div className="mx-auto">
         <Header />
         <main className="p-10">sdqfqwf</main>
         <Footer />

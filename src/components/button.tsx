@@ -11,10 +11,13 @@ type ButtonProps = {
 export const Button: FC<ButtonProps> = ({ text, image, alt, className }) => {
   return (
     <button
-      className={cn("flex flex-row justify-between rounded-full", className)}
+      className={cn(
+        "flex flex-row justify-between rounded-full uppercase bg-[linear-gradient(156.57deg,#EF33F2_-18.35%,#3544DC_117.49%)] btn-hover bg-cover max-w-max",
+        className
+      )}
     >
       {text}
-      <img className="w-[24px] h-[24px]" src={image} alt={alt} />
+      <img className="pl-2" src={image} alt={alt} />
     </button>
   );
 };

@@ -7,7 +7,7 @@ type NavbarProps = {
 
 export const Navbar: FC<NavbarProps> = ({ adress, phone }) => {
   return (
-    <div className="flex flex-row justify-between py-[21px]">
+    <div className="flex flex-row justify-between py-[21px] max-w-[1300px] mx-auto">
       <div className="flex flex-row gap-x-[50px] items-center text-white">
         <a href="#" className="max-[550px]:hidden">
           <img src="/Logo.svg"></img>
@@ -24,13 +24,14 @@ export const Navbar: FC<NavbarProps> = ({ adress, phone }) => {
       </div>
       <div className="flex flex-row gap-x-[20px] max-[550px]:w-full min-[551px]:gap-x-[40px]">
         <button>
-          <img src="/icons/search.png" alt="search" />
+          <img className="" src="/icons/search.png" alt="search" />
         </button>
         <button>
           <img src="/icons/glasses.png" alt="search" />
         </button>
-        <button>
-          <img src="/icons/log-in.png" alt="log-in" />
+        <button className="flex items-center text-white">
+          ВХОД
+          <img className="pl-[10px]" src="/icons/log-in.png" alt="log-in" />
         </button>
         <button className="max-[550px]:ml-auto">
           <img src="/icons/burger.png" alt="menu" />
