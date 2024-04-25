@@ -4,9 +4,11 @@ import { Header } from "./components/header";
 function App() {
   return (
     <>
-      <Header />
-      <main className="p-10">sdqfqwf</main>
-      <Footer />
+      <div className="max-w-[1300px] mx-auto px-1">
+        <Header />
+        <main className="p-10">sdqfqwf</main>
+        <Footer />
+      </div>
     </>
   );
 }
