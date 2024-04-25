@@ -70,6 +70,10 @@
 }
 html {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
 }
 .bebas {
   font-family: "Bebas Neue", "Roboto", Arial, Helvetica, sans-serif;

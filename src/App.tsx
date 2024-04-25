@@ -1,3 +1,4 @@
+import { Events } from "./components/events";
 import { Footer } from "./components/footer/footer";
 import { Header } from "./components/header";
 import Partners from "./components/partners/partners";
@@ -7,8 +8,12 @@ function App() {
     <>
       <div className="mx-auto">
         <Header />
-        <main className="p-10">sdqfqwf</main>
-        <Partners />
+
+        <main className="">
+          <Events />
+          <Partners />
+        </main>
+
         <Footer />
       </div>
     </>
