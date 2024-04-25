@@ -70,12 +70,16 @@ export const Header = () => {
             </div>
           </div>
         </div>
-        <div className="py-[33px] px-[63px] max-w-[1300px] bg-[#000000]/70 mx-auto rounded-full text-white">
-          Мы используем Интернет-сервис «Яндекс.Метрика» и файлы Cookies. Это
-          позволяет анализировать взаимодействие посетителей с сайтом ДВВС и
-          делать его лучше. Оставаясь на сайте ДВВС, Вы соглашаетесь с
-          использованием Интернет-сервиса «Яндекс.Метрика» и файлов Cookies.
-          <button></button>
+        <div className="max-w-[1300px] mx-auto px-[92px] mt-[142px] max-[993px]:hidden">
+          <div className="flex flex-row py-[33px] px-[63px]  bg-[#000000]/70  rounded-full text-white text-[13px] font-light leading-[17px]">
+            Мы используем Интернет-сервис «Яндекс.Метрика» и файлы Cookies. Это
+            позволяет анализировать взаимодействие посетителей с сайтом ДВВС и
+            делать его лучше. Оставаясь на сайте ДВВС, Вы соглашаетесь с
+            использованием Интернет-сервиса «Яндекс.Метрика» и файлов Cookies.
+            <button className="ml-[63px] uppercase py-[15px] px-[32px] rounded-full border leading-[18px]">
+              принять
+            </button>
+          </div>
         </div>
       </header>
     </div>
