@@ -1,0 +1,16 @@
+.footer {
+  > div:first-child {
+    @media screen and (min-width: 1329px) {
+      border-bottom: 1px solid #fff;
+    }
+  }
+}
+
+.info {
+  h5 {
+    @apply font-bold;
+    &:not(:first-child) {
+      @apply mt-4;
+    }
+  }
+}
